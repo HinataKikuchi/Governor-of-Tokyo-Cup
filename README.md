@@ -1,16 +1,20 @@
 # Governor-of-Tokyo-Cup
 
-都知事杯のレポジトリです
-
+都知事杯のレポジトリです<br>
+今後参加される方の中でAPIやCSVファイルをどのように活用していいのかわからないという方向けに今回のチュートリアルを作成しました。
+<br>
+RESAS_APIの場合はdocumentを、東京都のオープンデータを利用を考えている方はmain.ipynbをご覧ください。<br>
 # ディレクトリ構成/Structure
 
 ```txt
 .
-├── api_get
+├── RESAS_APIを利用してみる
 │  ├── api.py
 │  ├── cityData.json
-│  └── cityJson.json
-├── main.ipynb
+│  ├── cityData.json
+│  └── document.json
+├── 東京都のオープンデータをを利用してみる
+│  └── main.ipynb
 └── README.md
 ```
 
