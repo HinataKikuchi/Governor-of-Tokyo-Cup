@@ -4,9 +4,6 @@ import pprint
 import pandas as pd
 
 with open('./api_key.json') as f:
-    api_key_sample = json.load(f)
-
-with open('./api_key.json') as f:
     api_key = json.load(f)
 
 apiEndPoint = 'https://opendata.resas-portal.go.jp/'
